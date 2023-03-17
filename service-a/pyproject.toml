@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "service-a"
+version = "0.1.0"
+description = ""
+authors = ["Nadav <nadavgehasi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "service_a"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
